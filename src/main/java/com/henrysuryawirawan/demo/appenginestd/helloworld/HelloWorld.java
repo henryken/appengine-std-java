@@ -20,7 +20,7 @@ public class HelloWorld extends HttpServlet {
     }
 
     PrintWriter writer = response.getWriter();
-    writer.write("Hello " + name + "!");
+    writer.write("Hello " + name + ". From App Engine Standard.");
   }
 
 }
